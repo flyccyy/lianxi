@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>××公司网站</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            $("li").on("click", function () {
+                $(this).addClass("active").siblings().removeClass("active");
+                var index = $(this).index();
+                $(".main").eq(index).addClass("selected").siblings().removeClass("selected");
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="header">
+    <div class="header-con">
+        <div class="logo fl">
+            <img src="images/logo1.jpg" alt="">
+        </div>
+        <div class="concat fr">
+            <p>咨询热线：400-640-1566</p>
+        </div>
+    </div>
+</div>
+<div class="nav">
+    <div class="nav-con">
+        <ul class="uu">
+            <li class="active">公司简介</li>
+            <li>新闻中心</li>
+            <li>相关产品</li>
+            <li>人才招聘</li>
+            <li>工商档案</li>
+            <li>留言评价</li>
+            <li>联系我们</li>
+            <li>论坛中心</li>
+        </ul>
+        <div class="pic">
+            <img src="images/bgc.jpg" alt="" width="1000px">
+        </div>
+        <div class="content">
+            <div class="con-main fl">
+                <div class="main selected">
+                    ...公司是一家专注于微信自动化营销系统、大数据信息开发、社群、自媒体运营、互联网营销转型的移动互联网公司。公司所开发的云梦汇数据营销手机，能够直接为用户带来全国数千万高端精准客源，并24小时自动获客、自动营销、自动互动、自动推广，一部手机100个微信号50万粉丝营销；公司高层结合移动互联网行业诞生4年多来在多个行业的项目操盘经验，总结出一套系统化、标准化、流程化、家家必用的网络营销运营体系，为小微企业、商家、个体提供“+互联网”转型系统化解决方案。
+                </div>
+                <div class="main"><p>新闻中心</p></div>
+                <div class="main"><p>相关产品</p></div>
+                <div class="main"><p>人才招聘</p></div>
+                <div class="main"><p>工商档案</p></div>
+                <div class="main"><p>留言评价</p></div>
+                <div class="main"><p>联系我们</p></div>
+                <div class="main"><p>论坛中心</p></div>
+            </div>
+            <div class="sidebar fr">
+                <div class="title">相关链接</div>
+                <ul>
+                    <li><a href="https://www.baidu.com/">百度</a></li>
+                    <li><a href="https://www.163.com/">网易</a></li>
+                    <li><a href="https://www.jd.com/">京东</a></li>
+                    <li><a href="https://www.taobao.com/">淘宝</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--友情链接开始-->
+<div class="friendlink">
+    <div class="fldv">友情链接:</div>
+    <ul>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+        <li><a href="#">爱加盟网</a></li>
+
+    </ul>
+</div>
+<!--底部开始-->
+<div class="footer">
+    <ul>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">建材通服务</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">中国建网 版权所有 2000-20012 服务热线：0571-98899898 请与我们联系：server@163.com</a></li>
+        <li><a href="#">建材网会员互动群：12312313213本网实名:中建网</a></li>
+        <li><a href="#">中建网</a></li>
+    </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:微软雅黑;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input,img{
+    border:0 none;
+}
+input{
+    outline-style: none;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.header{
+    height: 60px;
+
+}
+.header-con{
+    height: 60px;
+    width: 1000px;
+    margin:0 auto 10px;
+}
+.concat{
+    height: 60px;
+    line-height: 60px;
+}
+.pic{
+    margin:10px auto;
+}
+.nav-con{
+    width: 1000px;
+    margin:0 auto;
+}
+.nav-con .uu{
+    width: 1000px;
+    margin:0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:3px solid #f00;
+}
+.content{
+    width: 1000px;
+    margin:0 auto;
+}
+.con-main{
+    width: 800px;
+    height: 180px;
+    border:1px solid #666;
+}
+.sidebar{
+    width: 180px;
+    height: 180px;
+    border:1px solid #666;
+}
+.content .main{
+    float:left;
+    display:none;
+}
+.content .main.selected{
+    display:block;
+}
+.active{
+    color:#fff;
+    background-color: #f00;
+    border:1px solid #ccc;
+    border-radius:5px 5px 0 0;
+    border-bottom:none;
+}
+.nav-con .uu li{
+    display:inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding:0 10px;
+    color:#000;
+    cursor: pointer;
+}
+.title{
+    height: 28px;
+    padding-left: 15px;
+    line-height: 28px;
+    background-color: #fcfcfc;
+}
+.sidebar ul{
+    margin-top: 10px;
+    margin-left:10px;
+}
+.sidebar ul li{
+    padding-left:15px;
+}
+.sidebar ul li a{
+    color:#444;
+}
+.sidebar ul li a:hover{
+    color:#f00;
+    text-decoration: underline;
+}
+/*友情链接开始*/
+.friendlink{
+    height: 102px;
+    width: 1000px;
+    margin:0 auto;
+    border-top:1px solid #DDDDDD;
+    border-bottom:3px solid #f00;
+    overflow: hidden;
+}
+.friendlink ul,.fldv{
+    margin-top:30px;
+    float: right;
+    width: 900px;
+    height: 102px;
+}
+.fldv{
+    height: 102px;
+    width: 75px;
+    float: left;
+}
+.friendlink li{
+    float:left;
+    margin-right:8px;
+    margin-bottom:5px;
+}
+.friendlink li a,.footer ul li a{
+    color:#666;
+}
+.friendlink li a:hover,.footer ul li a:hover{
+    color:#f00;
+    text-decoration: underline;
+}
+.footer{
+    height: 91px;
+    width: 970px;
+    margin:0 auto;
+    line-height:25px;
+}
+.footer ul{
+    margin-left:140px;
+    margin-top:4px;
+}
+.footer ul li{
+    float: left;
+    padding:0 11px;
+    font-size:14px;
+}
+
